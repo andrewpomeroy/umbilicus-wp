@@ -22,3 +22,12 @@ function roots_wp_title($title) {
 add_filter('wp_title', 'roots_wp_title', 10);
 
 add_theme_support( 'post-thumbnails' ); 
+
+
+function typekit_try() { 
+    ?>
+		<script src="//use.typekit.net/llm7vuh.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+    <?php
+}
+add_filter('wp_head', 'typekit_try');

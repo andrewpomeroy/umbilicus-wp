@@ -8,7 +8,7 @@
 				<img src="<?php echo (bloginfo('template_directory') . '/assets/img/4guys-alpha.png') ?>" />
 			<div class="pixel subtitles">
 				<h2>2-4 Player Arcade Action Chaos</h2>
-				<h3>Created for <a href class="link--ggj">Global Game Jam 2015</a> by:</h3>
+				<h3>Created for <a href="http://globalgamejam.org/2015/games/umbilicus-%E2%80%93%C2%A0descent-team-delta" class="link--ggj">Global Game Jam 2015</a> by:</h3>
 				<ul class="credits credits--mini">
 					<li><img src="<?php echo (bloginfo('template_directory') . '/assets/img/PlayerBlue.png') ?>" class="astronaut"><a href="http://twitter.com/yorikv">Yori Kvitchko</a></li>
 					<li><img src="<?php echo (bloginfo('template_directory') . '/assets/img/PlayerRed.png') ?>" class="astronaut"><a href="http://twitter.com/ButtToots">Justin Baldwin</a></li>

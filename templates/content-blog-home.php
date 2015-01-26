@@ -16,7 +16,9 @@ while ( $query2->have_posts() ) {
 	?>
 	<article class="post">
 		<h3 class="title"><?php echo get_the_title( $query2->post->ID ) ?></h3>
-			 <?php $img = wp_get_attachment_image_src( get_post_thumbnail_id( $query2->post->ID ), 'large' )[0]; ?>
+			<?php if (wp_get_attachment_image_src( get_post_thumbnail_id( $query2->post->ID ), 'large' )) {
+				$img = wp_get_attachment_image_src( get_post_thumbnail_id( $query2->post->ID ), 'large' )[0];
+			}
 		<img src="<?php echo $img ?>" class="featured-image">
 		<?php echo get_post_field('post_content', $query2->post->ID); ?>
 		<?php // the_content(); ?>

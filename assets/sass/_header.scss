@@ -1,0 +1,21 @@
+header.banner.navbar.navbar-default.navbar-static-top
+{
+    background: rgba($brand-primary, .2);
+    background: rgba(white, .2);
+    border-bottom: 0;
+    body.home & {
+    	display: none;
+    }
+}
+
+button.navbar-toggle.collapsed
+{
+    display: none;
+}
+
+
+.page-header
+{
+	border-bottom: 0px;
+	margin-top: $line-height-computed;
+}

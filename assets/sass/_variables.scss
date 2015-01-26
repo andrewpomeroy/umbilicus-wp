@@ -1,0 +1,43 @@
+// Grid settings
+// -------------------------
+
+$grid-columns:          12;
+$main-sm-columns:       $grid-columns;
+$sidebar-sm-columns:    4;
+
+
+
+// Brand colors
+// -------------------------
+
+$brand-primary: #688eff;
+$brand-red: #e73b4c;
+$brand-blue: #688eff;
+$brand-cyan: #23ffd9;
+
+// Glyphicons path
+// -------------------------
+
+$icon-font-path:        "../vendor/bootstrap-sass-official/assets/fonts/";
+
+// NAV
+
+$navbar-height: 100px;
+$navbar-padding-vertical: 10px;
+$navbar-padding-horizontal: 10px;
+
+$headings-font-weight: 700;
+
+// $font-family-sans-serif: "Futura PT", "Futura Std", Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "continuum_lightregular", "Futura PT", "Futura Std", Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-family-sans-serif: "continuum_mediumregular", "Futura PT", "Futura Std", Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text-color: white;
+$link-color: $brand-red;
+$link-color: $brand-primary;
+$font-size-base: 18px;
+
+$padding-base-horizontal: 20px;
+$padding-base-vertical: 12px;
+
+$section-padding-vertical: $padding-base-vertical * 2;
+$section-padding-horizontal: $padding-base-horizontal * 2;

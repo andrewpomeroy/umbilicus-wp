@@ -1,0 +1,44 @@
+html, body
+{
+	min-height: 100%;
+}
+body
+{
+	background: #f4927f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f4927f 0%, #fa876a 16%, #f36f56 39%, #9f4a52 67%, #533253 90%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4927f), color-stop(16%,#fa876a), color-stop(39%,#f36f56), color-stop(67%,#9f4a52), color-stop(90%,#533253)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f4927f 0%,#fa876a 16%,#f36f56 39%,#9f4a52 67%,#533253 90%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f4927f 0%,#fa876a 16%,#f36f56 39%,#9f4a52 67%,#533253 90%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f4927f 0%,#fa876a 16%,#f36f56 39%,#9f4a52 67%,#533253 90%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f4927f 0%,#fa876a 16%,#f36f56 39%,#9f4a52 67%,#533253 90%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4927f', endColorstr='#533253',GradientType=0 ); /* IE6-9 */
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.side-bg
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	// z-index: -1;
+	// background-size: contain;
+	background-repeat: repeat-y;
+	width: 160px;
+	background-size: 100% auto;
+	max-width: 20%;
+	&.right
+	{
+		right: 0;
+		background-position: top right;
+		background-image: url('../img/edge-right.png');
+	}
+	&.left
+	{
+		left: 0;
+		background-position: top left;
+		background-image: url('../img/edge-left.png');
+	}
+}

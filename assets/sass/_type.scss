@@ -1,0 +1,52 @@
+body
+{
+	font-weight: 200;
+}
+
+a
+{
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 0px $brand-blue;
+	color: $brand-cyan;
+	text-shadow: 2px 2px 0px darken($brand-blue, 10%);
+	&:hover, &:focus
+	{
+		text-decoration: none;
+		color: lighten($brand-cyan, 10%);
+		transition: 70ms color linear;
+	}
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	letter-spacing: .2em;
+	font-family: "Futura PT", "Futura Std", Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	&.title
+	{
+		text-transform: uppercase;
+	}
+}
+
+.pixel
+{
+	h1, h2, h3, h4, h5, h6, &
+	{
+		// font-family: 'nokia_cellphone_fcsmall';
+	}
+	.subtitles, &.subtitles
+	{
+		a
+		{
+			letter-spacing: 0px;
+		}
+	}
+}
+
+
+
+.title.section-break
+{
+	text-align: center;
+	margin: 1.5em 1em;
+}

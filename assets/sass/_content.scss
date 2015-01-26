@@ -1,0 +1,53 @@
+ul.credits
+{
+	list-style-type: none;
+	padding-left: 0;
+	li
+	{
+		display: inline-block;
+	}
+}
+
+.subtitles
+{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-copy
+{
+	margin: 2em 1.75em;
+	p
+	{
+		font-size: $font-size-h4;
+	}
+}
+
+article.post
+{
+	padding: $section-padding-vertical ($section-padding-horizontal*1.25) $section-padding-vertical;
+	background: rgba(white, .2);
+	margin-bottom: 1.5em;
+}
+
+.credits--mini
+{
+	li
+	{
+		margin-right: .75em;
+		a, img.astronaut
+		{
+			vertical-align: middle;
+		}
+		img.astronaut
+		{
+			width: 20px;
+			margin-right: .5em;
+		}
+	}
+}
+
+.featured-image
+{
+	margin-bottom: .5em;
+}

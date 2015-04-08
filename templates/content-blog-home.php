@@ -1,4 +1,4 @@
-<h2 class="title section-break">Dev Blog</h2>
+<h2 class="title section-break">Devlog</h2>
 
 <div class="row">
 	<div class="col-sm-8 col-sm-push-2">
